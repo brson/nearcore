@@ -1,6 +1,6 @@
 [package]
 name = "near-metrics"
-version = "0.0.0"
+version = "0.11.0"
 license = "MIT OR Apache-2.0"
 authors = ["Near Inc <hello@nearprotocol.com>"]
 publish = true
@@ -12,5 +12,5 @@ description = "A fork of the lighthouse_metrics crate used to implement promethe
 
 [dependencies]
 lazy_static = "1.4"
-prometheus = "0.11"
+prometheus = { version = "0.11", default-features = false }
 log = "0.4"
